@@ -69,7 +69,7 @@ BaileysBottle.init({
                     //  url: "ws://localhost:3000",
                     model: "alpaca.7B",
                     prompt: msgbuilder,
-                    threads: 6,
+                    threads: 3,
                     n_predict:3,
 
                     skip_end: false,
